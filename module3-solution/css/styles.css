@@ -1,0 +1,23 @@
+.tall-section {
+    height: 1000px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    #mobile-menu {
+        width: 100%;
+    }
+
+    .mobile-menu {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        background-color: #e7e7e7;
+    }
+
+    .mobile-menu li {
+        border-top: 1px solid #ccc;
+    }
+}
